@@ -1,4 +1,6 @@
-# 04-vuex-manual
+# VUEX
+
+Bases for vuex, creation de stores, actions, mutations, states, and getter.
 
 ## Project setup
 ```

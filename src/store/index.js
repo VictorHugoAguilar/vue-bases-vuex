@@ -1,10 +1,8 @@
 import { createStore } from "vuex";
+import counterStore from "./counter";
 
 export default createStore({
-    state: {
-        count: 1,
-        lastMutation: 'none'
+    modules: {
+        counter: counterStore,
     },
-
-    
 });

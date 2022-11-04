@@ -1,3 +1,4 @@
+import getRandomInt from "@/helpers/getRandomInt";
 import { createStore } from "vuex";
 import counterStore from "./counter";
 
